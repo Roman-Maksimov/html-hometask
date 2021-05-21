@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font: 16px/24px Arial;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+h2 {
+  margin: 0 0 20px;
+  color: #001a72;
+}
+
+header {
+  padding: 10px;
+  background: #001a72;
+  color: #fff;
+}
+
+section.section1 {
+  padding: 50px;
+}
+
+section.section1 table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+section.section1 table thead {
+  background: #808285;
+  color: #fff;
+}
+
+section.section1 table thead th {
+  padding: 10px 20px;
+  text-align: left;
+}
+
+section.section1 table tbody td {
+  padding: 10px 20px;
+  text-align: left;
+  border-bottom: 1px solid #808285;
+}
+
+section.section2 {
+  padding: 50px;
+  background: #37b5e7;
+  color: #fff;
+}
+
+section.section2 h2 {
+  color: #fff;
+}
+
+section.section3 {
+  padding: 50px;
+}
+
+section.section3 form table tbody tr td {
+  padding: 10px 0;
+}
+
+section.section3 form table tbody tr td:first-child {
+  width: 250px;
+}
+
+section.section3 form table tbody tr td:first-child label {
+  font-style: italic;
+}
+
+section.section3 form table tbody tr td:last-child input {
+  width: 300px;
+}
+
+.form {
+  display: inline-block;
+  width: 300px;
+  text-align: unset;
+}
+
+section.section4 {
+  padding: 50px;
+  background: #808285;
+  color: #fff;
+}
+
+section.section4 span {
+  font-weight: bold;
+}
+
+section.section4 a {
+  color: #37b5e7;
+}
