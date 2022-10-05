@@ -6,90 +6,135 @@
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-    IBS. Курс HTML
-
-    Добавленные элементы в HTML5
-
-    Категория
-    Элементы
-
-    Семантические элементы для работы со структурой страниц
-
-    <article>, <aside>, <figcaption>, <figure>, <footer>,
-    <header>, <hgroup>, <nav>, <section>, <details>, <summary>
-
-
-    Семантические элементы для работы с текстом
-
-    <mark>, <time>, <wbr> (поддерживался и ранее, но теперь официально является частью языка)
-
-
-    Элементы для работы с веб-формами и интерактивности
-
-    <input> (старый элемент, но со многими новыми подтипами), <datalist>, <keygen>, <meter>, <progress>, <command>, <menu>, <output>
-
-
-    Элементы для поддержки аудио, видео и подключаемых модулей
-
-    <audio>, <video>, <source>, <embed> (поддерживался и ранее, но теперь официально является частью языка)
-
-
-    Поддержка холста
-
-    <canvas>
-
-    Поддержка иных языков
-    <bdo>, <rp>, <rt>, <ruby>
-
-
-    Удаленные элементы из HTML5
-
-    «Удаленные» элементы будут работать в браузере, но валидаторы их обнаружат
-
-    В продолжение философии «элементам оформления не место в в языке» был удалены те, что использовались
-    для форматирования (<basefont>, <big>, <center>, <font>, <tt>)
-
-    Технология фреймов полностью упразднена (<frame>, <frameset>, <noframes>), однако,
-    <iframe> остался
-
-    Некоторые элементы предоставляли существующие возможности другим способом (вместо <acronym> лучше
-    использовать <abbr>, <object> вместо <applet>, <ul> вместо <dir>,
-    <s> или <del> вместо <strike>)
-
-    Пример формы в стиле HTML5
-    Введите значение
-    -> Поле с подсказкой
-
-    Введите число от 1 до 100
-    -> Числовое поле с ограничением на ввод от 0 до 100
-
-    Введите email
-    -> Поле ввода email-адреса
-
-    Введите телефон
-    -> Поле ввода телефона
-
-    Введите дату
-    -> Поле ввода даты
-
-    Введите время
-    -> Поле ввода времени
-
-    Выберите месяц
-    -> Поле выбора месяца
-
-    Выберите неделю
-    -> Поле выбора недели
-
-    Файл
-    -> Поле загрузки файла
-
-    Выберите цвет
-    -> Поле выбора цвета
-
-    Выберите число из диапазона
-    -> Ползунок выбора числа из диапазона от 1 до 100
-
-    [Имя] [Фамилия], Email: адрес@email
+	<header>
+		<h1>IBS. Курс HTML</h1>
+	</header>
+	<section class="section1">
+		<h2>Добавленные элементы в HTML5</h2>
+		<table>
+			<thead>
+				<tr>
+					<th>Категория</th>
+					<th>Элементы</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Семантические элементы для работы со структурой страниц</td>
+					<td>
+						&lt;article&gt; &lt;aside&gt;, &lt;figcaption&gt;, &lt;figure&gt;, &lt;footer&gt;, &lt;header&gt;,
+						&lt;hgroup&gt;, &lt;nav&gt;, &lt;section&gt;, &lt;details&gt;, &lt;summary&gt;
+					</td>
+				</tr>
+				<tr>
+					<td>Семантические элементы для работы с текстом</td>
+					<td>
+						&lt;mark&gt;, &lt;time&gt;, &lt;wbr&gt; (поддерживался и ранее, но теперь официально является частью языка)
+					</td>
+				</tr>
+				<tr>
+					<td>Элементы для работы с веб-формами и интерактивности</td>
+					<td>
+						&lt;input&gt; (старый элемент, но со многими новыми подтипами), &lt;datalist&gt;, &lt;keygen&gt;,
+						&lt;meter&gt;, &lt;progress&gt;, &lt;command&gt;, &lt;menu&gt;, &lt;output&gt;
+					</td>
+				</tr>
+				<tr>
+					<td>Элементы для поддержки аудио, видео и подключаемых модулей</td>
+					<td>
+						&lt;audio&gt;, &lt;video&gt;, &lt;source&gt;, &lt;embed&gt; (поддерживался и ранее, но теперь официально является частью языка)
+					</td>
+				</tr>
+				<tr>
+					<td>Поддержка холста</td>
+					<td>
+						&lt;canvas&gt;
+					</td>
+				</tr>
+				<tr>
+					<td>Поддержка иных языков</td>
+					<td>
+						&lt;bdo&gt;, &lt;rp&gt;, &lt;rt&gt;, &lt;ruby&gt;
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+	<section class="section2">
+		<h2>Удаленные элементы из HTML5</h2>
+		<ul>
+			<li>«Удаленные» элементы будут работать в браузере, но валидаторы их обнаружат</li>
+			<li>
+				В продолжение философии «элементам оформления не место в в языке» был удалены те, что использовались
+				для форматирования (&lt;basefont&gt;, &lt;big&gt;, &lt;center&gt;, &lt;font&gt;, &lt;tt&gt;)
+			</li>
+			<li>
+				Технология фреймов полностью упразднена (&lt;frame&gt;, &lt;frameset&gt;, &lt;noframes&gt;), однако,
+				&lt;iframe&gt; остался
+			</li>
+			<li>
+					Некоторые элементы предоставляли существующие возможности другим способом (вместо &lt;acronym&gt; лучше
+					использовать &lt;abbr&gt;, &lt;object&gt; вместо &lt;applet&gt;, &lt;ul&gt;вместо &lt;dir&gt;,
+					&lt;s&gt; или &lt;del&gt; вместо &lt;strike&gt;)
+			</li>
+		</ul>
+	</section>
+	<section class="section3">
+		<h2>Пример формы в стиле HTML5</h2>
+		<form action="#">
+			<table>
+					<tbody>
+							<tr>
+								<td><label for="input-text">Введите значение</label></td>
+								<td><input type="text" placeholder="Поле с подсказкой" id="input-text"></td>
+							</tr>
+							<tr>
+								<td><label for="input-number">Введите число от 1 до 100</label></td>
+								<td><input type="number" id="input-number"></td>
+							</tr>
+							<tr>
+								<td><label for="input-email">Введите email</label></td>
+								<td><input type="email" id="input-email"></td>
+							</tr>
+							<tr>
+								<td><label for="input-tel">Введите телефон</label></td>
+								<td><input type="tel" id="input-tel"></td>
+							</tr>
+							<tr>
+								<td><label for="input-date">Введите дату</label></td>
+								<td><input type="date" id="input-date"></td>
+							</tr>
+							<tr>
+								<td><label for="input-time">Введите время</label></td>
+								<td><input type="time" id="input-time"></td>
+							</tr>
+							<tr>
+								<td><label for="input-month">Выберите месяц</label></td>
+								<td><input type="month" id="input-month"></td>
+							</tr>
+							<tr>
+								<td><label for="input-week">Выберите неделю</label></td>
+								<td><input type="week" id="input-week"></td>
+							</tr>
+							<tr>
+								<td><label for="input-file">Файл</label></td>
+								<td><input type="file" id="input-file"></td>
+							</tr>
+							<tr>
+								<td><label for="input-color">Выберите цвет</label></td>
+								<td><input type="color" id="input-color"></td>
+							</tr>
+							<tr>
+								<td><label for="input-range">Выберите число из диапазона</label></td>
+								<td><input type="range" id="input-range"></td>
+							</tr>
+					</tbody>
+			</table>
+		</form>
+	</section>
+	<section class="section4">
+		<span>Кирилл Вакарев</span>, Email:
+		<a>je7logic@gmail.com</a>
+	</section>
 </body>
 </html>
